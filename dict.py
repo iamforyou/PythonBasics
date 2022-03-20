@@ -98,4 +98,17 @@ print('Original items:', items)
 del[sales['apple']]
 print('Updated items:', items)
 
+print('\n.................................... KEYS() .........................................')
+person = {'name': 'Phill', 'age': 22, 'salary': 3500.0}
+print(person.keys())
 
+empty_dict = {}
+print(empty_dict.keys())
+
+person = {'name': 'Phill', 'age': 22, }
+print('Before dictionary is updated')
+keys = person.keys()
+print(keys)
+person.update({'salary': 3500.0})
+print('\nAfter dictionary is updated')
+print(keys)
