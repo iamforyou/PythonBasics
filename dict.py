@@ -9,6 +9,8 @@ print(dict)
 my_dict = {'name':'Subrata Das', 'age':28, 'address':'Kolkata', 'position':'Developer'}
 print(my_dict)
 print(my_dict['name'])
+
+print('\n..................................... GET() ..........................................')
 print(my_dict.get('age'))
 print(my_dict.get('location')) # return none value
 # print(my_dict['location']) # return keyerror
@@ -80,3 +82,20 @@ vowels = { key : list(value) for key in keys }
 print(vowels)
 value.append(2)
 print(vowels)
+
+
+print('\n.................................... ITEMS() .........................................')
+marks = {'Physics':67, 'Maths':87}
+print(marks.items())
+
+sales = { 'apple': 2, 'orange': 3, 'grapes': 4 }
+print(sales.items())
+
+sales = { 'apple': 2, 'orange': 3, 'grapes': 4 }
+items = sales.items()
+print('Original items:', items)
+
+del[sales['apple']]
+print('Updated items:', items)
+
+
