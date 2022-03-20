@@ -61,3 +61,22 @@ print('\n.................................... FROMKEYS() .......................
 keys = {'a', 'e', 'i', 'o', 'u' }
 vowels = dict.fromkeys(keys)
 print(vowels)
+
+keys = {'a', 'e', 'i', 'o', 'u' }
+value = 'vowel'
+vowels = dict.fromkeys(keys, value)
+print(vowels)
+
+keys = {'a', 'e', 'i', 'o', 'u' }
+value = [1]
+vowels = dict.fromkeys(keys, value)
+print(vowels)
+value.append(2)
+print(vowels)
+
+keys = {'a', 'e', 'i', 'o', 'u' }
+value = [1]
+vowels = { key : list(value) for key in keys }
+print(vowels)
+value.append(2)
+print(vowels)
