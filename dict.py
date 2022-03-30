@@ -9,8 +9,11 @@ print(dict)
 my_dict = {'name':'Subrata Das', 'age':28, 'address':'Kolkata', 'position':'Developer'}
 print(my_dict)
 print(my_dict['name'])
+<<<<<<< HEAD
 
 print('\n..................................... GET() ..........................................')
+=======
+>>>>>>> d95e0c89ccaf71e0f069091b71385dc48cfb2eb0
 print(my_dict.get('age'))
 print(my_dict.get('location')) # return none value
 # print(my_dict['location']) # return keyerror
@@ -81,6 +84,7 @@ value = [1]
 vowels = { key : list(value) for key in keys }
 print(vowels)
 value.append(2)
+<<<<<<< HEAD
 print(vowels)
 
 
@@ -112,3 +116,6 @@ print(keys)
 person.update({'salary': 3500.0})
 print('\nAfter dictionary is updated')
 print(keys)
+=======
+print(vowels)
+>>>>>>> d95e0c89ccaf71e0f069091b71385dc48cfb2eb0
