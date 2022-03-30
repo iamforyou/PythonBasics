@@ -115,7 +115,11 @@ keys = person.keys()
 print(keys)
 person.update({'salary': 3500.0})
 print('\nAfter dictionary is updated')
+<<<<<<< HEAD
 print(keys)
 =======
 print(vowels)
 >>>>>>> d95e0c89ccaf71e0f069091b71385dc48cfb2eb0
+=======
+print(keys)
+>>>>>>> main
