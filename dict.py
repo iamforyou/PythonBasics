@@ -9,6 +9,11 @@ print(dict)
 my_dict = {'name':'Subrata Das', 'age':28, 'address':'Kolkata', 'position':'Developer'}
 print(my_dict)
 print(my_dict['name'])
+<<<<<<< HEAD
+
+print('\n..................................... GET() ..........................................')
+=======
+>>>>>>> d95e0c89ccaf71e0f069091b71385dc48cfb2eb0
 print(my_dict.get('age'))
 print(my_dict.get('location')) # return none value
 # print(my_dict['location']) # return keyerror
@@ -79,4 +84,38 @@ value = [1]
 vowels = { key : list(value) for key in keys }
 print(vowels)
 value.append(2)
+<<<<<<< HEAD
 print(vowels)
+
+
+print('\n.................................... ITEMS() .........................................')
+marks = {'Physics':67, 'Maths':87}
+print(marks.items())
+
+sales = { 'apple': 2, 'orange': 3, 'grapes': 4 }
+print(sales.items())
+
+sales = { 'apple': 2, 'orange': 3, 'grapes': 4 }
+items = sales.items()
+print('Original items:', items)
+
+del[sales['apple']]
+print('Updated items:', items)
+
+print('\n.................................... KEYS() .........................................')
+person = {'name': 'Phill', 'age': 22, 'salary': 3500.0}
+print(person.keys())
+
+empty_dict = {}
+print(empty_dict.keys())
+
+person = {'name': 'Phill', 'age': 22, }
+print('Before dictionary is updated')
+keys = person.keys()
+print(keys)
+person.update({'salary': 3500.0})
+print('\nAfter dictionary is updated')
+print(keys)
+=======
+print(vowels)
+>>>>>>> d95e0c89ccaf71e0f069091b71385dc48cfb2eb0
